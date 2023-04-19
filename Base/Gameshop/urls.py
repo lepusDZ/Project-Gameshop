@@ -20,10 +20,7 @@ from django.contrib import admin
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('games/',include('Game.urls')),
-    path('comments/',include('Comment.urls')),
-    path('genres/',include('Genre.urls')),
-    path('platforms/',include('Platform.urls')),
+    path('',include('Game.urls')),
 ]
 
 

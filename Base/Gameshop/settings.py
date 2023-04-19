@@ -38,9 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Game.apps.GameConfig',
-    'Genre.apps.GenreConfig',
-    'Comment.apps.CommentConfig',
-    'Platform.apps.PlatformConfig',
 ]
 
 MIDDLEWARE = [
